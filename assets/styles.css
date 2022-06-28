@@ -243,6 +243,19 @@ color: grey;
 
 }
 
+/* transiciones y animaciones */
+
+.transicionEscalaImagenes {
+    transition: height 1s, width 1s;
+    height: 400px;
+    width: 400px;
+}
+
+.transicionEscalaImagenes:hover {
+    height: 450px;
+    width: 450px;
+}
+
 
 #miNav {
     grid-area: miNav;
