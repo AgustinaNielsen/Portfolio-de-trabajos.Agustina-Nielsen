@@ -256,6 +256,23 @@ color: grey;
     width: 450px;
 }
 
+/*transiciones y animaciones de pag sobre mi */
+
+#fotoPerfil img {
+    animation-duration: 2s;
+    animation-name: transparencia;
+    animation-iteration-count: 1;
+}
+
+@keyframes transparencia {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 #miNav {
     grid-area: miNav;
